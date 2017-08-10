@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    // Basic tooling files
+    ".vscode/": false,
+    "/**/.eslint*": false,
+    ".gitignore": false,
+    ".htmlhintrc": false,
+    ".stylelintrc": false,
+    "typings": false,
+    "jsconfig.json": false,
+    "package-lock.json": false,
+    "typings.json": false,
+    // Project files
+    "node_modules": false,
+    "README.md": false
+  },
+  // Icon
+  "vsicons.presets.angular": false
+}

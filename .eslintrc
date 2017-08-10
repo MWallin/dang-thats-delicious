@@ -1,0 +1,115 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "log",
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "curly": "error",
+    "default-case": "error",
+    "no-empty-function": "error",
+    "no-loop-func": "error",
+    "no-param-reassign": "error",
+    "no-redeclare": "error",
+    "no-return-assign": [
+      "error",
+      "always"
+    ],
+    "no-unused-expressions": "error",
+    "vars-on-top": "error",
+    "yoda": "error",
+    "strict": "error",
+    "init-declarations": [
+      "error",
+      "always"
+    ],
+    "global-require": "error",
+    "no-mixed-requires": "error",
+    "camelcase": "error",
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "eol-last": "error",
+    "keyword-spacing": "error",
+    "no-lonely-if": "error",
+    "no-trailing-spaces": "off",
+    "object-property-newline": "error",
+    "one-var": [
+      "error",
+      "never"
+    ],
+    "space-in-parens": [
+      "error",
+      "always",
+      {
+        "exceptions": [
+          "empty",
+          "{}"
+        ]
+      }
+    ],
+    "no-duplicate-imports": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "key-spacing": [
+      "error",
+      {
+        "align": "colon"
+      }
+    ],
+    "no-multi-spaces": "off",
+    "no-unused-vars": "warn",
+    "no-unexpected-multiline": "error",
+    "no-unreachable": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "always",
+        "asyncArrow": "always"
+      }
+    ]
+  }
+}
